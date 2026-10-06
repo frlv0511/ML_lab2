@@ -1,0 +1,13 @@
+﻿Алгоритм,Ключевой параметр,Допущение о форме,Применим к данным?
+K-Means,число k,"выпуклые, сферические",да
+Affinity propagation,"preference, damping",выпуклые,"да, но число кластеров зависит от preference"
+Mean-shift,bandwidth,мода плотности,"да, при подходящей полосе"
+Spectral clustering,"k, граф соседей",любая форма,да
+Ward hierarchical,k,"компактные, одного размера",да
+Agglomerative,"k, linkage",зависит от linkage,да; single склонен к цепочкам
+DBSCAN,"eps, min_samples",плотные области любой формы,"да, при подборе eps"
+HDBSCAN,min_cluster_size,плотные области разной плотности,да
+OPTICS,"min_samples, xi",плотные области,"да, чувствителен к xi"
+Gaussian mixtures,"k, ковариации",эллипсоидальные,да (учитывает вытянутость)
+BIRCH,"threshold, k",компактные,да
+Bisecting K-Means,k,выпуклые,да

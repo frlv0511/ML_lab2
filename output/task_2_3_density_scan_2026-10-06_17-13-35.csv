@@ -1,0 +1,45 @@
+﻿метод,параметры,кластеров,выбросов,silhouette
+DBSCAN,"eps=0.15, min_samples=3",6,10,0.5147040724630317
+DBSCAN,"eps=0.15, min_samples=5",5,16,0.5565723574094503
+DBSCAN,"eps=0.15, min_samples=8",5,25,0.6292553608075846
+DBSCAN,"eps=0.2, min_samples=3",5,5,0.5846362807406024
+DBSCAN,"eps=0.2, min_samples=5",4,10,0.659827130559345
+DBSCAN,"eps=0.2, min_samples=8",3,17,0.7494161529460994
+DBSCAN,"eps=0.25, min_samples=3",3,5,0.7099255746921727
+DBSCAN,"eps=0.25, min_samples=5",3,8,0.7268696625229629
+DBSCAN,"eps=0.25, min_samples=8",3,12,0.7397923196359992
+DBSCAN,"eps=0.3, min_samples=3",3,5,0.7099255746921727
+DBSCAN,"eps=0.3, min_samples=5",3,6,0.7159551188819098
+DBSCAN,"eps=0.3, min_samples=8",3,11,0.7358242883028574
+DBSCAN,"eps=0.4, min_samples=3",3,3,0.7026339865194307
+DBSCAN,"eps=0.4, min_samples=5",3,3,0.7026339865194307
+DBSCAN,"eps=0.4, min_samples=8",3,3,0.7026339865194307
+DBSCAN,"eps=0.5, min_samples=3",2,1,0.5479521021444842
+DBSCAN,"eps=0.5, min_samples=5",2,1,0.5479521021444842
+DBSCAN,"eps=0.5, min_samples=8",3,1,0.6973899219666698
+HDBSCAN,min_cluster_size=5,7,19,0.6086390767848768
+HDBSCAN,min_cluster_size=8,3,4,0.7125496343459553
+HDBSCAN,min_cluster_size=10,3,4,0.7107506426470901
+HDBSCAN,min_cluster_size=15,3,7,0.7191047931799969
+HDBSCAN,min_cluster_size=20,3,9,0.7223397521698836
+OPTICS,"min_samples=5, xi=0.02",4,95,0.8088696930718903
+OPTICS,"min_samples=5, xi=0.05",4,95,0.8088696930718903
+OPTICS,"min_samples=5, xi=0.1",3,130,0.9014686152482931
+OPTICS,"min_samples=10, xi=0.02",4,82,0.7117999019838787
+OPTICS,"min_samples=10, xi=0.05",4,80,0.7132466462612056
+OPTICS,"min_samples=10, xi=0.1",3,59,0.7362326066608049
+OPTICS,"min_samples=15, xi=0.02",4,37,0.6480371225934609
+OPTICS,"min_samples=15, xi=0.05",4,46,0.6350279942358407
+OPTICS,"min_samples=15, xi=0.1",3,79,0.7421912189013975
+OPTICS (dbscan-извлечение),"min_samples=3, eps=0.25",3,6,0.7132726106979111
+OPTICS (dbscan-извлечение),"min_samples=3, eps=0.3",3,6,0.7132726106979111
+OPTICS (dbscan-извлечение),"min_samples=3, eps=0.4",3,3,0.7026339865194307
+OPTICS (dbscan-извлечение),"min_samples=3, eps=0.5",2,1,0.5479521021444842
+OPTICS (dbscan-извлечение),"min_samples=5, eps=0.25",3,10,0.7345469757411219
+OPTICS (dbscan-извлечение),"min_samples=5, eps=0.3",3,8,0.7246080581108614
+OPTICS (dbscan-извлечение),"min_samples=5, eps=0.4",3,4,0.7087157619395917
+OPTICS (dbscan-извлечение),"min_samples=5, eps=0.5",2,1,0.5479521021444842
+OPTICS (dbscan-извлечение),"min_samples=8, eps=0.25",3,12,0.7397923196359992
+OPTICS (dbscan-извлечение),"min_samples=8, eps=0.3",3,12,0.7397923196359992
+OPTICS (dbscan-извлечение),"min_samples=8, eps=0.4",3,7,0.7233491138068852
+OPTICS (dbscan-извлечение),"min_samples=8, eps=0.5",3,4,0.7141787136029176
